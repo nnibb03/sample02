@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LuluCafe</title>
+        <meta name="description" content="手作りパンとコーヒーの店 LuluCafe（ルルカフェ）">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/7c2d15ad4c.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header class="header">
+            <div class="header-contents">
+                <a href="index.html">
+                    <picture class="logo">
+                      <source media="(max-width:768px)" srcset="./images/logo/lulucafe_logo_sp.png">
+                      <source media="(min-width:769px)" srcset="./images/logo/lulucafe_logo.png">
+                      <img src="./images/logo/lulucafe_logo.png" alt="Sample Shop">
+                    </picture>
+                </a>
+                <div class="nav-button" id="nav-button">
+                    <div class="hamburger-menu" id="hamburger-menu">
+                        <span class="menu"><hr><hr><hr></span>
+                     </div>
+                 </div>
+                <nav class="sp-nav">
+                    <ul class="sp-nav-list">
+                        <li><a href="index.html">トップページ</a></li>
+                        <li><a href="information.html">お知らせ</a></li>
+                        <li><a href="concept.html">コンセプト</a></li>
+                        <li><a href="menu.html">メニュー</a></li>
+                        <li><a href="index.html#shop">営業時間・アクセス</a></li>
+                    </ul>
+                    <div class="sns-button">
+                        <ul class="sns">
+                            <li><a href="https://twitter.com/TwitterJP" target="_blank"><i class="fab fa-twitter" aria-label="twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/facebookappJapan/" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/facebookappJapan/" target="_blank"><i class="fab fa-instagram" aria-label="instagram"></i></a></li>
+                        </ul>        
+                    </div>
+                </nav>
+                <!-- PCナビゲーション -->
+                <nav class="pc-nav">
+                    <ul class="pc-nav-list">
+                        <li><a href="index.html">トップページ</a></li>
+                        <li><a href="information.html">お知らせ</a></li>
+                        <li><a href="concept.html">コンセプト</a></li>
+                        <li><a href="menu.html">メニュー</a></li>
+                        <li><a href="index.html#shop">営業時間・アクセス</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- メニュー -->
+            <section class="subpage">
+                <div class="section-heading">
+                    <img src="./images/t_menu.jpg" alt="メニュー">
+                    <p>メニュー</p>
+                </div>
+                <div class="sub-contents">
+                    <div class="menu-title">
+                        <h2>Drink Menu</h2>
+                    </div>
+                    <div class="section-contents">
+                        <div class="menu-slideshow">
+                            <div id="slideshow-image" class="slideshow-image">
+                                <img src="./images/menu/drink_1.jpg" alt="">
+                            </div>
+                            <ul id="thumbnail" class="thumbnail">
+                                <li><img src="./images/menu/drink_1.jpg" alt=""></li>
+                                <li><img src="./images/menu/drink_2.jpg" alt=""></li>
+                                <li><img src="./images/menu/drink_3.jpg" alt=""></li>
+                                <li><img src="./images/menu/drink_4.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="menu-list-box">
+                            <ul>
+                                <li>スペシャルティコーヒー<span>¥510</span></li>
+                                <li>季節のコーヒー<span>¥410</span></li>
+                                <li>ブレンドコーヒー<span>¥410</span></li>
+                                <li>ダージリン<span>¥410</span></li>
+                                <li>アイスティー<span>¥410</span></li>
+                                <li>オレンジジュース<span>¥380</span></li>
+                                <span>etc...</span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="sub-contents">
+                    <div class="menu-title">
+                        <h2>Food Menu</h2>
+                    </div>
+                    <div class="section-contents">
+                        <div class="menu-slideshow">
+                            <div id="slideshow-image-2" class="slideshow-image">
+                                <img src="./images/menu/bread_2.jpg" alt="">
+                            </div>
+                            <ul id="thumbnail-2" class="thumbnail">
+                                <li><img src="./images/menu/bread_2.jpg" alt=""></li>
+                                <li><img src="./images/menu/bread_3.jpg" alt=""></li>
+                                <li><img src="./images/menu/sweets_3.jpg" alt=""></li>
+                                <li><img src="./images/menu/bread_1.jpg" alt=""></li>                                   
+                            </ul>
+                        </div>
+                        <div class="menu-list-box">
+                            <ul>
+                                <li>手作りパン<span>¥280</span></li>
+                                <li>サンドイッチ<span>¥380</span></li>
+                                <li>ベーコンとトマトのパニーニ<span>¥410</span></li>
+                                <li>本日のケーキ<span>¥320</span></li>
+                                <li>マフィン<span>¥320</span></li>
+                                <li>フレンチトースト<span>¥480</span></li>
+                            </ul>
+                            <span>etc...</span>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <!-- マップ -->
+            <section id="shop">
+                <div class="shop-body">
+                    <div class="shop-text">
+                        <img src="./images/logo/lulucafe_logo_sp.png" alt="LuluCafe">
+                        <p>〒111-1111 ◯◯県◯◯市◯◯1-1-1<br>TEL：000-000-0000<br>営業時間：10:00〜17:00<br>定休日：月曜日</p>
+                        <ul class="sns">
+                            <li><a href="https://twitter.com/TwitterJP" target="_blank"><i class="fab fa-twitter" aria-label="twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/facebookappJapan/" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/facebookappJapan/" target="_blank"><i class="fab fa-instagram" aria-label="instagram"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </section>                
+        </main>
+        <footer class="footer">
+            <div class="copyright">
+              <small>©LuluCafe</small>
+           </div>
+        </footer>
+        
+        <!-- JS -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./js/hamburger.js"></script>
+        <script src="./js/carousel.js"></script>
+        <script src="./js/slideshow.js"></script>
+    </body>
+</html>
