@@ -287,7 +287,7 @@ ul {
   color: #26638e; }
 
 section {
-  padding-bottom: 1rem; }
+  padding-bottom: 3rem; }
   @media (min-width: 769px) {
     section {
       padding: 1rem 0 4rem; } }
